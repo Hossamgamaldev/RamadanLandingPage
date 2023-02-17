@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containar{
+    background-image: url(Ramadan.png);
+height: 100vh;
+background-size: 100% 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto 180px;
+    padding-top: 60px;
+    align-items: center;
+}
+
+header {
+color: white;
+}
+header span {
+font-size: 30px;
+font-weight: 600;
+}
+header nav {
+    padding-right: 50px;
+}
+header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    font-weight: 600;
+}
+button {
+    background-color: #956735;
+    color: white;
+width: 110px;
+height: 35px;
+border-radius: 25px;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+        background-color: white;
+    color: black;
+        transition: .5s;
+}
+
+section {
+        width: 80%;
+    margin: 0px auto;
+}
+
+.div1 {
+    width: 50%;
+    color: white;
+}
+h1{
+    margin-bottom: 30px;
+        font-size: 50px;
+}
+.div1 span {
+    font-size: 55px;
+    color: #deac6f;
+}
+.div1 p {
+    width: 500px;
+    margin-bottom: 20px;
+}
+.div1 p span {
+    font-size: 16px;
+color: #deac6f;
+}
+.div1 hr {
+    width: 350px;
+    border: 2px solid #956735;
+
+    margin-bottom: 10px;
+}
+.div1 button {
+margin-top: 20px;
+margin-right: 10px;
+}
+.spcial  {
+    background-color: white;
+    color: black;
+}
+.spcial:hover   {
+    background-color: #956735;
+    color: white;
+    transition: .5s;
+}
